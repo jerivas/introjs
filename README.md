@@ -25,6 +25,8 @@
 - JS Events: Execute code in response to user actions
 	- Basic intro: http://www.w3schools.com/js/js_events.asp
 	- Event handlers: http://www.w3schools.com/js/js_htmldom_eventlistener.asp
+	- Event bubbling and capturing: https://javascript.info/tutorial/bubbling-and-capturing
+	- Common events: `mouseenter, mouseleave, click, keyup, submit`
 
 - Paid resources (affiliate links ahead):
 	- [Sublime Text Power User]: Awesome tips and guide for web devs on this popular code editor
