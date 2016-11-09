@@ -6,15 +6,15 @@
 </head>
 <body>
 
-	<h1>This is the dogs page</h1>
-	<p>
-		<a href="page2.html">Go to cats page</a>
-	</p>
-
-	<form id="my-form" action="http://localhost:8000/page2.html" method="POST">
-		<input id="dog-name" type="text" placeholder="Dog name" name="dog-name">
+	<form id="my-form" action="">
+		<label for="url">Enter URL</label>
+		<input id="url-input" type="url">
 		<input type="submit">
 	</form>
+
+	<ul id="link-list">
+		<!-- Links will be inserted here by JS -->
+	</ul>
 
 	<!-- Get the fetch polyfill -->
 	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
